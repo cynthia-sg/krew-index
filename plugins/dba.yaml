@@ -2,6 +2,25 @@ apiVersion: krew.googlecontainertools.github.com/v1alpha2
 kind: Plugin
 metadata:
   name: dba
+  annotations:
+    artifacthub.io/displayName: My plugin
+    artifacthub.io/keywords: |
+      - networking
+      - security      
+    artifacthub.io/license: Apache-2.0
+    artifacthub.io/links: |
+      - name: link1
+        url: https://link1.url
+      - name: link2
+        url: https://link2.url      
+    artifacthub.io/maintainers: |
+      - name: cynthiasg
+        email: cynthiasg@icloud.com    
+    artifacthub.io/provider: Some organization
+    artifacthub.io/readme: |
+      ## Package documentation in markdown format
+
+      Content added here will be displayed when the package's view in the UI.  
 spec:
   version: v0.15.2
   homepage: https://kubedb.com
