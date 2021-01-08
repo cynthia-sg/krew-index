@@ -3,7 +3,7 @@ kind: Plugin
 metadata:
   name: stash
 spec:
-  version: v0.11.8
+  version: v0.11.7
   homepage: https://stash.run
   shortDescription: kubectl plugin for Stash by AppsCode
   description: |
