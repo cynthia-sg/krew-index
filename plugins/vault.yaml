@@ -7,7 +7,7 @@ metadata:
       - url: https://artifacthub.io/packages/helm/artifact-hub/artifact-hub
       - url: https://dsmfnkjdfgh/sdjkfhkjdsf
 spec:
-  version: v0.4.0-beta.1
+  version: v0.4.2
   homepage: https://kubevault.com
   shortDescription: kubectl plugin for KubeVault by AppsCode
   description: |
