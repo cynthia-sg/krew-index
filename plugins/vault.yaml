@@ -2,6 +2,10 @@ apiVersion: krew.googlecontainertools.github.com/v1alpha2
 kind: Plugin
 metadata:
   name: vault
+  annotations:
+    artifacthub.io/recommendations: |
+      - url: https://artifacthub.io/packages/helm/artifact-hub/artifact-hub
+      - url: https://dsmfnkjdfgh/sdjkfhkjdsf
 spec:
   version: v0.4.0-beta.1
   homepage: https://kubevault.com
