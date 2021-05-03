@@ -2,6 +2,29 @@ apiVersion: krew.googlecontainertools.github.com/v1alpha2
 kind: Plugin
 metadata:
   name: stash
+  annotations:
+    artifacthub.io/changes:
+      - kind: added
+        description: New feature
+        links:
+          - name: Github Issue
+            url: "http://jhdhjdjd.com"
+          - name: Link 2
+            url: "http://jhdhjdjd.com"
+      - kind: removed
+        description: Removed feature
+      - kind: added
+        description: Add feature
+      - kind: deprecated
+        description: Make ....
+      - kind: added
+        description: Lore ipsum
+      - kind: added
+        description: Add linter
+      - kind: security
+        description: Upgrade backend dependencies
+      - kind: fixed
+        description: Some bugs fixes and other improvements
 spec:
   version: v0.11.7
   homepage: https://stash.run
