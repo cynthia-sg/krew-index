@@ -13,6 +13,9 @@ metadata:
       ## Package documentation in markdown format
 
       Content added here will be displayed when the package's view in the UI.  
+    artifacthub.io/changes: |
+      - test 1
+      - test 2
     artifacthub.io/recommendations: |
       - url: https://artifacthub.io/packages/helm/artifact-hub/artifact-hub
       - url: https://artifacthub.io/packages/helm/prometheus-community/kube-prometheus-stack
