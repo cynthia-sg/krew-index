@@ -3,7 +3,7 @@ kind: Plugin
 metadata:
   name: stash
   annotations:
-    artifacthub.io/changes:
+    artifacthub.io/changes: |
       - kind: added
         description: New feature
         links:
